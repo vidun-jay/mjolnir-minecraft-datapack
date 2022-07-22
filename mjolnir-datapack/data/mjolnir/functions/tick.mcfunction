@@ -6,6 +6,7 @@ effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:
 effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] jump_boost 1 10 true
 effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] regeneration 1 10 true
 effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] absorption 1 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] saturation 1 10 true
 
 # /trigger hammer command
 scoreboard players enable @a hammer
