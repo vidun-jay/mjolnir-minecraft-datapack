@@ -5,7 +5,7 @@
 Minecraft Datapack that adds Thor's Hammer to the game. Wielding the hammer will give the player Jump Boost, Absorption, Speed and Regeneration as long as the hammer is in hand.
 ## Installation
 
-To install the datapack, move the `mjolnir-resource-pack` folder (NOT compressed) into the `resourcepacks` directory in your `.minecraft` folder. Then, move the `mjolnir-datapack` into `.minecraft/saves/<your world name/datapacks>`. Load the resource pack into the game from the in-game menu and run the `/reload` command in the chat.
+To install the datapack, click on the green "Code" button above and click "Download as ZIP". Unzip the file and open the folder. Move the `mjolnir-resource-pack` folder (uncompressed) into the `resourcepacks` directory in your `.minecraft` folder. Then, move the `mjolnir-datapack` into `.minecraft/saves/<your world name/datapacks>`. Load the resource pack into the game from the in-game menu and run the `/reload` command in the chat.
 
 To get the hammer, give yourself a command block using:
 
