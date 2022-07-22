@@ -11,7 +11,7 @@ To get the hammer, give yourself a command block using:
 
 
 ```bash
-  /give @s command_block
+/give @s command_block
 ```
 and paste the following into the text field:
 ```
