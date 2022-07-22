@@ -7,15 +7,22 @@ Minecraft Datapack that adds Thor's Hammer to the game. Wielding the hammer will
 
 To install the datapack, click on the green "Code" button above and click "Download as ZIP". Unzip the file and open the folder. Move the `mjolnir-resource-pack` folder (uncompressed) into the `resourcepacks` directory in your `.minecraft` folder. Then, move the `mjolnir-datapack` into `.minecraft/saves/<your world name>/datapacks` folder. Load the resource pack into the game from the in-game menu and run the `/reload` command in the chat.
 
-To get the hammer, give yourself a command block using:
+To get the hammer, run the following command:
 
 
 ```bash
-/give @s command_block
-```
-and paste the following into the text field:
-```
-/give @p carrot_on_a_stick{display:{Name:'{"text":"Mjolnir","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"Whosoever holds this hammer,","color":"gold","bold":false,"italic":true}','{"text":"if he be worthy, shall possess","color":"gold","italic":true}','{"text":"the power of Thor.","color":"gold","bold":true,"italic":true}']},HideFlags:7,Unbreakable:1b,CustomModelData:123456,mjolnir:1b,Enchantments:[{id:"minecraft:sharpness",lvl:15s},{id:"minecraft:knockback",lvl:10s}]} 1
+/trigger hammer
 ```
 
-Activate the command block using a redstone signal and you are good to go! Right-click to summon lightning.
+
+And the almighty Mjölnir should now be in your inventory. Have fun! Right-click to summon lightning just like the God of Thunder.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://vidunjayakody.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vidun-jayakody-5860471b7/)
+
