@@ -1,0 +1,2 @@
+execute as @a[scores={clicked=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] at @s anchored eyes run summon minecraft:lightning_bolt ^ ^-1 ^8
+scoreboard players reset @s clicked
