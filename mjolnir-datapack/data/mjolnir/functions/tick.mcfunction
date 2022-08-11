@@ -2,11 +2,11 @@
 execute as @a if score @s clicked matches 1.. run function mjolnir:lightning
 
 # give player all the buffs
-effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] speed 1 10 true
-effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] jump_boost 1 10 true
-effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] regeneration 1 10 true
-effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] absorption 1 10 true
-effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] saturation 1 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] speed 999999 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] jump_boost 999999 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] regeneration 999999 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] absorption 999999 10 true
+effect give @e[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{mjolnir:1b}}}] saturation 999999 10 true
 
 # /trigger hammer command
 scoreboard players enable @a hammer
